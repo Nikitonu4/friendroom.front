@@ -2,7 +2,11 @@
   <div>
     <div class="flex">
       <fr-input v-model="value" :value="value" />
-      <fr-button loading :label="'Найти соседа'" />
+      <fr-button
+:label="'Искать'"
+        :left-icon="{
+                 name: 'search',
+      }" />
     </div>
     <fr-linear-progress :value="value"/>
     <fr-dropbox />

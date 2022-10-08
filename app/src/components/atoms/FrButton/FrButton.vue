@@ -8,8 +8,17 @@
     :outline="style === 'outline'"
     :loading="loading"
     :disable="disabled"
-    :label="label"
-  />
+  >
+    <div
+      v-if="leftIcon?.name"
+      class="fr-button__icon-left"
+    >
+      <q-icon :name="leftIcon.name"/>
+    </div>
+    <span class="fr-button__content" >
+          {{ label }}
+      </span>
+  </q-btn>
 </template>
 
 <script setup lang="ts">
@@ -19,7 +28,17 @@ export interface FrButtonProps {
   style?: 'primary' | 'secondary' | 'outline';
   loading?: boolean;
   disabled?: boolean;
+  mainIcon?: {
+    name: string,
+  },
+  leftIcon?: {
+    name: string,
+  },
+  rightIcon?: {
+    name: string,
+  },
 }
+
 withDefaults(defineProps<FrButtonProps>(), {
   label: '',
   size: 'M',
@@ -31,12 +50,9 @@ withDefaults(defineProps<FrButtonProps>(), {
 
 <style scoped lang="scss">
 .fr-button {
-  width: 200px;
-  //font-family: Whyte;
-  height: 60px;
-  border-radius: 0 6px 6px 0 !important;
-  //background: #3d62ad;
-  //color: #fff;
-  font-weight: 600;
+  width: 126px;
+  border-radius: 20px;
+  height: 46px;
+  font-weight: 700;
 }
 </style>

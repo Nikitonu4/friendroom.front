@@ -6,7 +6,7 @@
     size="40px"
     :value="value.length / 40"
     color="secondary"
-    class="q-mt-sm" />
+    class="fr-linear-progress q-mt-sm" />
 </template>
 
 <script setup lang="ts">

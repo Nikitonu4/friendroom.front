@@ -1,10 +1,10 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <example-component title="Example component" active ></example-component>
+  <q-page>
+    <the-offer/>
   </q-page>
 </template>
 
 <script setup lang="ts">
-import ExampleComponent from 'components/ExampleComponent.vue';
+import TheOffer from 'src/modules/TheOffer/TheOffer.vue';
 
 </script>
