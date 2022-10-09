@@ -1,15 +1,11 @@
 <template>
   <label class="switch">
-    <input type="checkbox">
+    <input type="checkbox" />
     <span class="slider round"></span>
   </label>
 </template>
 
-<script setup lang="ts">
-import {ref} from 'vue';
-
-const value = ref('')
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .switch {
@@ -35,20 +31,20 @@ const value = ref('')
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -56,7 +52,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {

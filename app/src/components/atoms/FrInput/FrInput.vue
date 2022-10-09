@@ -1,9 +1,5 @@
 <template>
-  <q-input
-    borderless
-    clearable
-    value="value"
-    class="fr-input" />
+  <q-input borderless clearable value="value" class="fr-input" />
 </template>
 
 <script setup lang="ts">

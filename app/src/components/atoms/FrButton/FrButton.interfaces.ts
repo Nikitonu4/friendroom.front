@@ -5,12 +5,12 @@ export interface FrButtonProps {
   loading?: boolean;
   disabled?: boolean;
   mainIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   leftIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   rightIcon?: {
-    name: string,
-  },
+    name: string;
+  };
 }

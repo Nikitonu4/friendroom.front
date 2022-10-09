@@ -8,11 +8,11 @@ interface IMainState {
 export const useMainStore = defineStore('main', {
   state: (): IMainState => ({
     searchType: 'roommate',
-    test: 12
+    test: 12,
   }),
   actions: {
-    setField(field: keyof IMainState, payload: never ) {
+    setField(field: keyof IMainState, payload: never) {
       this[field] = payload;
-    }
-  }
+    },
+  },
 });

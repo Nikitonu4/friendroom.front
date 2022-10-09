@@ -1,15 +1,14 @@
 import FrButton from './FrButton.vue';
-import {FrButtonProps} from './FrButton.interfaces';
-import {Story} from '@storybook/vue3';
+import { FrButtonProps } from './FrButton.interfaces';
+import { Story } from '@storybook/vue3';
 
 export default {
   title: 'Компоненты/Атомы/FrButton',
   component: FrButton,
-  parameters: {
-  },
+  parameters: {},
   argTypes: {
-    label:{
-      control: { type: 'text' }
+    label: {
+      control: { type: 'text' },
     },
     size: {
       control: { type: 'select' },
@@ -28,7 +27,7 @@ export default {
   },
 };
 
-const Template: Story<FrButtonProps> = (args:FrButtonProps) => ({
+const Template: Story<FrButtonProps> = (args: FrButtonProps) => ({
   components: { FrButton },
   setup() {
     return { args };

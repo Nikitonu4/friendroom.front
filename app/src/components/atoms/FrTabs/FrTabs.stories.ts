@@ -1,21 +1,19 @@
 import FrTabs from './FrTabs.vue';
-import {Story} from '@storybook/vue3';
-import {FrTabsProps} from 'components/atoms/FrTabs/FrTabs.interfaces';
+import { Story } from '@storybook/vue3';
+import { FrTabsProps } from 'components/atoms/FrTabs/FrTabs.interfaces';
 
 export default {
   title: 'Компоненты/Атомы/FrTabs',
   component: FrTabs,
-  parameters: {
-  },
+  parameters: {},
   argTypes: {
     disabled: {
       control: { type: 'boolean' },
     },
-
   },
 };
 
-const Template: Story<FrTabsProps> = (args:FrTabsProps) => ({
+const Template: Story<FrTabsProps> = (args: FrTabsProps) => ({
   components: { FrTabs },
   setup() {
     return { args };
@@ -27,13 +25,14 @@ export const Primary = Template.bind({});
 Primary.storyName = 'Playground';
 Primary.args = {
   initValue: 'flat',
-  options: [{
-   label: 'Найти соседа',
-   value: 'roommate'
-  },
-  {
-    label: 'Найти квартиру',
-    value: 'flat',
-  }
+  options: [
+    {
+      label: 'Найти соседа',
+      value: 'roommate',
+    },
+    {
+      label: 'Найти квартиру',
+      value: 'flat',
+    },
   ],
 };

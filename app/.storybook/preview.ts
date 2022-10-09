@@ -1,8 +1,8 @@
-import 'src/css/quasar.variables.scss'
+import 'src/css/quasar.variables.scss';
 import 'quasar/dist/quasar.css';
-import '@quasar/extras/material-icons/material-icons.css'
-import 'quasar/src/css/index.sass'
-import "../src/css/app.scss"
+import '@quasar/extras/material-icons/material-icons.css';
+import 'quasar/src/css/index.sass';
+import '../src/css/app.scss';
 import { app } from '@storybook/vue3';
 import { Quasar } from 'quasar';
 import { setCssVar } from 'quasar';
@@ -18,11 +18,11 @@ setCssVar('warning', '#f2c037');
 app.use(Quasar, {});
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
     },
   },
-}
+};

@@ -6,16 +6,15 @@
     size="40px"
     :value="value.length / 40"
     color="secondary"
-    class="fr-linear-progress q-mt-sm" />
+    class="fr-linear-progress q-mt-sm"
+  />
 </template>
 
 <script setup lang="ts">
 export interface FrLinearProgressProps {
-  value?:string
+  value?: string;
 }
-const props = defineProps<FrLinearProgressProps>()
+defineProps<FrLinearProgressProps>();
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

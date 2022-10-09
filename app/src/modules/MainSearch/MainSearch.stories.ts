@@ -1,16 +1,14 @@
 import MainSearch from './MainSearch.vue';
-import {Story} from '@storybook/vue3';
+import { Story } from '@storybook/vue3';
 
 export default {
   title: 'Модули/MainSearch',
   component: MainSearch,
-  parameters: {
-  },
-  argTypes: {
-  },
+  parameters: {},
+  argTypes: {},
 };
 
-const Template: Story<any> = (args:any) => ({
+const Template: Story<never> = (args: never) => ({
   components: { MainSearch },
   setup() {
     return { args };
@@ -20,5 +18,3 @@ const Template: Story<any> = (args:any) => ({
 
 export const Primary = Template.bind({});
 Primary.storyName = 'Playground';
-Primary.args = {
-};

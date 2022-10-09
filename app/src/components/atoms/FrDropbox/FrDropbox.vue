@@ -1,12 +1,10 @@
 <template>
-  <q-btn-dropdown
-    class="fr-dropbox"
-    unelevated>
-   <div class="fr-dropbox__content">
-    <slot name="label">
-      {{label}}
-    </slot>
-   </div>
+  <q-btn-dropdown class="fr-dropbox" unelevated>
+    <div class="fr-dropbox__content">
+      <slot name="label">
+        {{ label }}
+      </slot>
+    </div>
   </q-btn-dropdown>
 </template>
 
@@ -17,14 +15,14 @@ export interface FrDropboxProps {
   style?: 'primary' | 'secondary' | 'outline';
   disabled?: boolean;
   mainIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   leftIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   rightIcon?: {
-    name: string,
-  },
+    name: string;
+  };
 }
 
 withDefaults(defineProps<FrDropboxProps>(), {

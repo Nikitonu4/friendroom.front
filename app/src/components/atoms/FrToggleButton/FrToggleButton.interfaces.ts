@@ -1,4 +1,4 @@
-export interface FrTabsProps {
+export interface FrToggleButtonProps {
   initValue: string;
   disabled?: boolean;
   options: {

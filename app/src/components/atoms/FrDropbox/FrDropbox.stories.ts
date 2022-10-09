@@ -1,14 +1,14 @@
 import FrDropbox from './FrDropbox.vue';
-import {Story} from '@storybook/vue3';
+import { Story } from '@storybook/vue3';
+import { FrDropboxProps } from 'components/atoms/FrDropbox/FrDropbox.interfaces';
 
 export default {
   title: 'Компоненты/Атомы/FrDropbox',
   component: FrDropbox,
-  parameters: {
-  },
+  parameters: {},
   argTypes: {
-    label:{
-      control: { type: 'text' }
+    label: {
+      control: { type: 'text' },
     },
     size: {
       control: { type: 'select' },
@@ -27,7 +27,7 @@ export default {
   },
 };
 
-const Template: Story<any> = (args:any) => ({
+const Template: Story<FrDropboxProps> = (args: FrDropboxProps) => ({
   components: { FrDropbox },
   setup() {
     return { args };

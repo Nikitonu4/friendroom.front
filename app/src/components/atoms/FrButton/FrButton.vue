@@ -9,15 +9,12 @@
     :loading="loading"
     :disable="disabled"
   >
-    <div
-      v-if="leftIcon?.name"
-      class="fr-button__icon-left"
-    >
-      <q-icon :name="leftIcon.name"/>
+    <div v-if="leftIcon?.name" class="fr-button__icon-left">
+      <q-icon :name="leftIcon.name" />
     </div>
-    <span class="fr-button__content" >
-          {{ label }}
-      </span>
+    <span class="fr-button__content">
+      {{ label }}
+    </span>
   </q-btn>
 </template>
 
@@ -29,14 +26,14 @@ export interface FrButtonProps {
   loading?: boolean;
   disabled?: boolean;
   mainIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   leftIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   rightIcon?: {
-    name: string,
-  },
+    name: string;
+  };
 }
 
 withDefaults(defineProps<FrButtonProps>(), {

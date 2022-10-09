@@ -7,17 +7,16 @@
   </q-layout>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
-.main-layout{
+.main-layout {
   padding: 44px 75px;
 }
-.rec{
+.rec {
   width: 170px;
   height: 64px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 20px;
 }
 </style>

@@ -4,12 +4,12 @@ export interface FrDropboxProps {
   style?: 'primary' | 'secondary' | 'outline';
   disabled?: boolean;
   mainIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   leftIcon?: {
-    name: string,
-  },
+    name: string;
+  };
   rightIcon?: {
-    name: string,
-  },
+    name: string;
+  };
 }

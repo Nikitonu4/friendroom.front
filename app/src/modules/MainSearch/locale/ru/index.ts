@@ -1,9 +1,9 @@
 export default {
   searchBtn: 'Искать',
-  mainFilterList:{
+  mainFilterList: {
     place: 'Место',
     age: 'Возраст соседа',
     sex: 'Пол соседа',
     price: 'Цена с человека',
-  }
-}
+  },
+};
