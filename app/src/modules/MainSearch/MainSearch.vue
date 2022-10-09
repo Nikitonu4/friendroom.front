@@ -18,6 +18,7 @@ import FrButton from 'components/atoms/FrButton/FrButton.vue';
   width: 900px;
   height: 92px;
   background: #FFFFFF;
+  //z-index: 1;
   box-shadow: 5px 5px 25px rgba(174, 174, 192, 0.16);
   border-radius: 20px;
 }

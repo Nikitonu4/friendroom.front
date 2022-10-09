@@ -1,5 +1,6 @@
 import FrTabs from './FrTabs.vue';
 import {Story} from '@storybook/vue3';
+import {FrTabsProps} from 'components/atoms/FrTabs/FrTabs.interfaces';
 
 export default {
   title: 'Компоненты/Атомы/FrTabs',
@@ -7,29 +8,28 @@ export default {
   parameters: {
   },
   argTypes: {
-    // options:{
-    //   control: { type:  }
-    // },
     disabled: {
       control: { type: 'boolean' },
     },
+
   },
 };
 
-const Template: Story<any> = (args:any) => ({
+const Template: Story<FrTabsProps> = (args:FrTabsProps) => ({
   components: { FrTabs },
   setup() {
     return { args };
   },
-  template: '<fr-tabs v-bind="args" />',
+  template: '<fr-tabs v-bind="args" @value="console.log($event.target.value)" />',
 });
 
 export const Primary = Template.bind({});
 Primary.storyName = 'Playground';
 Primary.args = {
+  initValue: 'flat',
   options: [{
    label: 'Найти соседа',
-   value: 'neighbour'
+   value: 'roommate'
   },
   {
     label: 'Найти квартиру',

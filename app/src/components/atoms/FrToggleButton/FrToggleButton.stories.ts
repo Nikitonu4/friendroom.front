@@ -7,9 +7,6 @@ export default {
   parameters: {
   },
   argTypes: {
-    // options:{
-    //   control: { type:  }
-    // },
     disabled: {
       control: { type: 'boolean' },
     },
@@ -27,13 +24,14 @@ const Template: Story<any> = (args:any) => ({
 export const Primary = Template.bind({});
 Primary.storyName = 'Playground';
 Primary.args = {
+  initValue: 'label1',
   options: [{
-   label: 'Найти соседа',
-   value: 'neighbour'
+   label: 'Тестовый label1',
+   value: 'label1'
   },
   {
-    label: 'Найти квартиру',
-    value: 'flat',
+    label: 'Тестовый label2',
+    value: 'label2',
   }
   ],
 };

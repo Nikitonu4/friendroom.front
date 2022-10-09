@@ -1,9 +1,6 @@
   <template>
-    <div>
       <q-btn-toggle
-
-        ref="test"
-        v-model="model"
+        v-model="value"
         class="fr-toggle-button"
         :options="options"
         :disable="disabled"
@@ -15,14 +12,14 @@
         spread
         unelevated
         no-caps
-        @click="aira"/>
-    </div>
+        @click="$emit('value', value)"/>
     </template>
 
 <script setup lang="ts">
-import {onUpdated, ref} from 'vue';
+import {computed, ref} from 'vue';
 
-export interface FrButtonProps {
+export interface FrToggleButtonProps {
+  initValue: string,
   disabled?: boolean;
   options: {
     label: string,
@@ -30,14 +27,14 @@ export interface FrButtonProps {
   }[],
 }
 
-withDefaults(defineProps<FrButtonProps>(), {
+const props = withDefaults(defineProps<FrToggleButtonProps>(), {
+  initValue: '',
   disabled: false,
 });
+const value = ref(props.initValue)
+const emits = defineEmits(['value'])
 
-const model = ref('neighbour')
-onUpdated(()=>{
-  console.log(model.value)
-})
+
 </script>
 
 <style scoped lang="scss">

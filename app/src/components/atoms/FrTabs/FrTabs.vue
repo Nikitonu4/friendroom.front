@@ -1,29 +1,29 @@
 <template>
-  <div>
     <q-tabs
-    v-model="model"
+    v-model="value"
     class="fr-tabs bg-white"
     no-caps
-    indicator-color="primary color"
+    indicator-color="primary"
     active-class="fr-tabs__active"
     active-color="primary"
     >
       <q-tab
         v-for="tab in options"
         :key="tab.value"
-      :name="tab.value"
+        :disable="disabled"
+        :name="tab.value"
       :label="tab.label"
       :ripple="false"
       />
     </q-tabs>
-  </div>
 
 </template>
 
 <script setup lang="ts">
-import {onUpdated, ref} from 'vue';
+import {computed} from 'vue';
 
 export interface FrTabsProps {
+  initValue: string,
   disabled?: boolean;
   options: {
     label: string,
@@ -31,19 +31,28 @@ export interface FrTabsProps {
   }[],
 }
 
-withDefaults(defineProps<FrTabsProps>(), {
+const props = withDefaults(defineProps<FrTabsProps>(), {
+  initValue: '',
   disabled: false,
 });
+const emit = defineEmits<{
+  (e: 'update:value', newValue: string): void
+}>()
 
-const model = ref('neighbour')
-onUpdated(()=>{
-  console.log(model.value)
+const value = computed({
+  get() {
+    return props.initValue
+  },
+  set(newValue) {
+    emit('update:value', newValue)
+  }
 })
+
 </script>
 
 <style scoped lang="scss">
 .fr-tabs{
-  border-radius: 20px 20px 0 0 !important;
+  border-radius: 20px 20px 0 0;
   &__active{
     :deep(.q-focus-helper){
       color: white;
@@ -51,7 +60,7 @@ onUpdated(()=>{
   }
   :deep(.q-tab__indicator){
     height: 3px;
-    border-radius: 10px;
+    //border-radius: 6px;
   }
 }
 </style>

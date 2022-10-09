@@ -17,6 +17,7 @@
 .offer {
   margin-top: 60px;
   width: 100%;
+  z-index: -1;
   height: 380px;
   background: #E92C42;
   padding: 1px 0 0;
