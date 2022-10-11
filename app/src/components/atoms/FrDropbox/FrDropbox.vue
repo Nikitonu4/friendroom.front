@@ -1,15 +1,23 @@
 <template>
-  <q-btn-dropdown class="fr-dropbox" unelevated>
-    <div class="fr-dropbox__content">
-      <slot name="label">
+  <q-btn-dropdown
+    no-caps
+    dropdown-icon="none"
+    :disable-dropdown="disabled"
+    class="fr-dropbox"
+    unelevated
+    :ripple="false"
+  >
+    <div class="fr-dropbox__content">тест</div>
+    <template #label>
+      <div class="fr-dropbox__label">
         {{ label }}
-      </slot>
-    </div>
+      </div>
+    </template>
   </q-btn-dropdown>
 </template>
 
 <script setup lang="ts">
-export interface FrDropboxProps {
+interface FrDropboxProps {
   label?: string;
   size?: 'S' | 'M' | 'L';
   style?: 'primary' | 'secondary' | 'outline';
@@ -35,6 +43,8 @@ withDefaults(defineProps<FrDropboxProps>(), {
 
 <style scoped lang="scss">
 .fr-dropbox {
-  border-radius: 0 !important;
+  &__label {
+    font-weight: 400;
+  }
 }
 </style>
