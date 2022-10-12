@@ -6,7 +6,6 @@ storybook-static
 .quasar
 /dist
 
-storybook-static
 # Cordova related directories and files
 /src-cordova/node_modules
 /src-cordova/platforms
