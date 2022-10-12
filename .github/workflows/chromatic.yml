@@ -1,8 +1,11 @@
 name: 'Chromatic Publish'
 on: push
 jobs:
-  test:
+  chromatic-deployment:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
     env:
       NODE_OPTIONS: --max-old-space-size=16384
     steps:
@@ -12,4 +15,4 @@ jobs:
         with:
           workingDir: app
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          exitZeroOnChanges: true
