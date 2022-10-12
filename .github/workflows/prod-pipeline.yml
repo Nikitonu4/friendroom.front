@@ -9,12 +9,6 @@ on:
       - master
 
 jobs:
-  Eslint:
-    runs-on: ubuntu-latest
-    name: "Check Eslint"
-    steps:
-      - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2
   Chromatic-storybook:
     runs-on: ubuntu-latest
     name: "Send updates of storybook to Chromatic"
