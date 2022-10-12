@@ -3,6 +3,8 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max-old-space-size=16384
     steps:
       - uses: actions/checkout@v1
       - run: yarn
