@@ -1,6 +1,6 @@
 info @storybook/vue3 v6.5.12
 info 
-info => Cleaning outputDir: /tmp/chromatic--3865171-rxauJ5Z31Wbg
+info => Cleaning outputDir: /tmp/chromatic--3844619-M9Wsg9jIVqp5
 info => Loading presets
 info => Compiling manager..
 vite v2.9.15 building for production...
@@ -10,117 +10,117 @@ Use of eval is strongly discouraged, as it poses security risks and may cause is
 Use of eval is strongly discouraged, as it poses security risks and may cause issues with minification
 ✓ 803 modules transformed.
 rendering chunks...
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.83be7b2f.woff2     125.35 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-300.1cb31447.eot         23.83 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-500.42a43ec4.eot         23.97 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-600.a4a3156e.eot         23.81 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-regular.822a4ecc.eot     23.91 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-700.884e94b3.eot         23.19 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-800.d161af7a.eot         23.52 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.fd84f88b.woff            161.05 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-300.e56cd21b.woff2       21.85 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-500.38e351a7.woff2       21.88 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-600.1bdabead.woff2       21.75 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-regular.31284ed2.woff2   21.79 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-800.011754f7.woff2       21.56 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-700.359485a0.woff2       21.23 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-300.81464557.woff        27.00 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-500.9289f5fc.woff        27.08 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-600.ccab559d.woff        26.89 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-regular.2718ea1b.woff    27.00 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-800.c0fd59c2.woff        26.67 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-700.1d212fb4.woff        26.13 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-300.553c42c8.ttf         41.58 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-500.5ed9b1ce.ttf         41.59 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-600.eaeef61f.ttf         41.50 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-regular.61ff8878.ttf     41.55 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-800.2b373eaa.ttf         41.89 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-700.547c9831.ttf         41.58 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-300.cdff77fa.svg         58.00 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-500.88c5d15b.svg         58.61 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-regular.ba5b9f5f.svg     58.59 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-600.f4000a07.svg         58.61 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-800.772648f8.svg         58.65 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/open-sans-v34-latin_cyrillic-700.b11fff48.svg         58.59 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/iframe.html                                                  13.23 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/config.9c077bfd.js                                    0.22 KiB / gzip: 0.18 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/config.9c077bfd.js.map                                0.43 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/decorateStory.32d36793.js                             1.55 KiB / gzip: 0.79 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/decorateStory.32d36793.js.map                         6.44 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/string.bf3fd91c.js                                    0.16 KiB / gzip: 0.15 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/string.bf3fd91c.js.map                                0.61 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.d51b119a.js                                     7.70 KiB / gzip: 3.16 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.d51b119a.js.map                                 19.08 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.fc4f22df.js                                     5.73 KiB / gzip: 2.22 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.fc4f22df.js.map                                 23.24 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.c07003af.js                                   0.64 KiB / gzip: 0.41 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.c07003af.js.map                               7.39 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/make-decorator.3769f4d4.js                            0.70 KiB / gzip: 0.40 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/make-decorator.3769f4d4.js.map                        3.00 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.caf3e286.js                                   1.34 KiB / gzip: 0.49 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.caf3e286.js.map                               4.11 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.7d265c2a.js                                   8.21 KiB / gzip: 2.80 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.7d265c2a.js.map                               36.59 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.d58338b0.js                                   4.17 KiB / gzip: 1.59 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.d58338b0.js.map                               16.86 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.884b7383.js                                   9.08 KiB / gzip: 3.44 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.884b7383.js.map                               42.06 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.35d79ed9.js                                   7.74 KiB / gzip: 1.56 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.35d79ed9.js.map                               16.99 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrButton.stories.0554d84b.js                          2.00 KiB / gzip: 0.79 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrButton.stories.0554d84b.js.map                      0.16 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrButton.67ed05d1.js                                  1.71 KiB / gzip: 0.74 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrButton.67ed05d1.js.map                              0.10 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.bd9288ef.js                                   24.54 KiB / gzip: 7.65 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.bd9288ef.js.map                               99.22 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/plugin-vue_export-helper.21dcd24c.js                  0.09 KiB / gzip: 0.10 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/plugin-vue_export-helper.21dcd24c.js.map              0.53 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrDropbox.stories.10a9990f.js                         2.04 KiB / gzip: 0.80 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrDropbox.stories.10a9990f.js.map                     0.16 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrDropbox.369f1edb.js                                 1.53 KiB / gzip: 0.70 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrDropbox.369f1edb.js.map                             0.11 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrTabs.stories.1b4dbced.js                            3.08 KiB / gzip: 1.33 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrTabs.stories.1b4dbced.js.map                        1.53 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrToggleButton.stories.8f2770da.js                    2.95 KiB / gzip: 1.23 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrToggleButton.stories.8f2770da.js.map                1.38 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/MainSearch.stories.a9f140b9.js                        2.21 KiB / gzip: 0.97 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/MainSearch.stories.a9f140b9.js.map                    0.13 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/renderDocs.47055a9c.js                                2.44 KiB / gzip: 1.15 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/renderDocs.47055a9c.js.map                            8.86 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/GlobalScrollAreaStyles-8793ce4a.fcd8648d.js           10.10 KiB / gzip: 2.25 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/GlobalScrollAreaStyles-8793ce4a.fcd8648d.js.map       19.07 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrDropbox.14867421.css                                0.05 KiB / gzip: 0.07 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrButton.1cc26284.css                                 0.09 KiB / gzip: 0.10 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrToggleButton.stories.59bed26a.css                   0.07 KiB / gzip: 0.09 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/FrTabs.stories.8abbe9af.css                           0.17 KiB / gzip: 0.13 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/MainSearch.stories.65044d8d.css                       0.32 KiB / gzip: 0.23 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/Color-f953d088.f0d603a8.js                            32.41 KiB / gzip: 12.14 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/Color-f953d088.f0d603a8.js.map                        128.09 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/WithTooltip-167e9982.07fcb049.js                      37.55 KiB / gzip: 12.38 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/WithTooltip-167e9982.07fcb049.js.map                  174.11 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/config.b4ab9fb5.js                                    71.84 KiB / gzip: 20.19 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/config.b4ab9fb5.js.map                                254.44 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/OverlayScrollbars-1355f44c.24b9e5c7.js                57.63 KiB / gzip: 24.73 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/OverlayScrollbars-1355f44c.24b9e5c7.js.map            425.97 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.843efb88.js                                     119.95 KiB / gzip: 37.64 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.843efb88.js.map                                 283.76 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/syntaxhighlighter-b07b042a.bc505eb2.js                122.64 KiB / gzip: 46.60 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/syntaxhighlighter-b07b042a.bc505eb2.js.map            452.47 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/vue.esm-bundler.c02555e9.js                           135.73 KiB / gzip: 52.68 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/vue.esm-bundler.c02555e9.js.map                       945.88 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.3bb59378.css                                  372.07 KiB / gzip: 65.39 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/iframe.8520de00.js                                    327.01 KiB / gzip: 89.16 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/iframe.8520de00.js.map                                938.92 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.d35f0106.js                                   456.63 KiB / gzip: 139.46 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/preview.d35f0106.js.map                               1077.76 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.952516d1.js                                     453.84 KiB / gzip: 134.74 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/index.952516d1.js.map                                 1104.71 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/formatter-0d5cb0eb.cbada680.js                        700.99 KiB / gzip: 219.18 KiB
-../../../../../../tmp/chromatic--3865171-rxauJ5Z31Wbg/assets/formatter-0d5cb0eb.cbada680.js.map                    1624.53 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.83be7b2f.woff2     125.35 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-300.1cb31447.eot         23.83 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-500.42a43ec4.eot         23.97 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-600.a4a3156e.eot         23.81 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-regular.822a4ecc.eot     23.91 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-700.884e94b3.eot         23.19 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-800.d161af7a.eot         23.52 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.fd84f88b.woff            161.05 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-300.e56cd21b.woff2       21.85 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-500.38e351a7.woff2       21.88 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-600.1bdabead.woff2       21.75 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-regular.31284ed2.woff2   21.79 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-700.359485a0.woff2       21.23 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-800.011754f7.woff2       21.56 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-500.9289f5fc.woff        27.08 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-300.81464557.woff        27.00 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-regular.2718ea1b.woff    27.00 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-600.ccab559d.woff        26.89 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-700.1d212fb4.woff        26.13 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-800.c0fd59c2.woff        26.67 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-500.5ed9b1ce.ttf         41.59 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-300.553c42c8.ttf         41.58 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-regular.61ff8878.ttf     41.55 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-600.eaeef61f.ttf         41.50 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-700.547c9831.ttf         41.58 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-800.2b373eaa.ttf         41.89 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-300.cdff77fa.svg         58.00 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-500.88c5d15b.svg         58.61 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-regular.ba5b9f5f.svg     58.59 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-600.f4000a07.svg         58.61 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-700.b11fff48.svg         58.59 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/open-sans-v34-latin_cyrillic-800.772648f8.svg         58.65 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/iframe.html                                                  13.23 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/config.9c077bfd.js                                    0.22 KiB / gzip: 0.18 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/config.9c077bfd.js.map                                0.43 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/decorateStory.32d36793.js                             1.55 KiB / gzip: 0.79 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/decorateStory.32d36793.js.map                         6.44 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.d51b119a.js                                     7.70 KiB / gzip: 3.16 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.d51b119a.js.map                                 19.08 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/string.bf3fd91c.js                                    0.16 KiB / gzip: 0.15 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/string.bf3fd91c.js.map                                0.61 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.fc4f22df.js                                     5.73 KiB / gzip: 2.22 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.fc4f22df.js.map                                 23.24 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.c07003af.js                                   0.64 KiB / gzip: 0.41 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.c07003af.js.map                               7.39 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.caf3e286.js                                   1.34 KiB / gzip: 0.49 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.caf3e286.js.map                               4.11 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/make-decorator.3769f4d4.js                            0.70 KiB / gzip: 0.40 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/make-decorator.3769f4d4.js.map                        3.00 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.7d265c2a.js                                   8.21 KiB / gzip: 2.80 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.7d265c2a.js.map                               36.59 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.d58338b0.js                                   4.17 KiB / gzip: 1.59 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.d58338b0.js.map                               16.86 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.884b7383.js                                   9.08 KiB / gzip: 3.44 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.884b7383.js.map                               42.06 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.35d79ed9.js                                   7.74 KiB / gzip: 1.56 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.35d79ed9.js.map                               16.99 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrButton.stories.0554d84b.js                          2.00 KiB / gzip: 0.79 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrButton.stories.0554d84b.js.map                      0.16 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrButton.67ed05d1.js                                  1.71 KiB / gzip: 0.74 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrButton.67ed05d1.js.map                              0.10 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.bd9288ef.js                                   24.54 KiB / gzip: 7.65 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.bd9288ef.js.map                               99.22 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/plugin-vue_export-helper.21dcd24c.js                  0.09 KiB / gzip: 0.10 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/plugin-vue_export-helper.21dcd24c.js.map              0.53 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrDropbox.stories.10a9990f.js                         2.04 KiB / gzip: 0.80 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrDropbox.stories.10a9990f.js.map                     0.16 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrDropbox.369f1edb.js                                 1.53 KiB / gzip: 0.70 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrDropbox.369f1edb.js.map                             0.11 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrTabs.stories.1b4dbced.js                            3.08 KiB / gzip: 1.33 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrTabs.stories.1b4dbced.js.map                        1.53 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/MainSearch.stories.a9f140b9.js                        2.21 KiB / gzip: 0.97 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/MainSearch.stories.a9f140b9.js.map                    0.13 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrToggleButton.stories.8f2770da.js                    2.95 KiB / gzip: 1.23 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrToggleButton.stories.8f2770da.js.map                1.38 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/renderDocs.47055a9c.js                                2.44 KiB / gzip: 1.15 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/renderDocs.47055a9c.js.map                            8.86 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/GlobalScrollAreaStyles-8793ce4a.fcd8648d.js           10.10 KiB / gzip: 2.25 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/GlobalScrollAreaStyles-8793ce4a.fcd8648d.js.map       19.07 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrTabs.stories.8abbe9af.css                           0.17 KiB / gzip: 0.13 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrDropbox.14867421.css                                0.05 KiB / gzip: 0.07 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrButton.1cc26284.css                                 0.09 KiB / gzip: 0.10 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/FrToggleButton.stories.59bed26a.css                   0.07 KiB / gzip: 0.09 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/MainSearch.stories.65044d8d.css                       0.32 KiB / gzip: 0.23 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/WithTooltip-167e9982.07fcb049.js                      37.55 KiB / gzip: 12.38 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/WithTooltip-167e9982.07fcb049.js.map                  174.11 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/Color-f953d088.f0d603a8.js                            32.41 KiB / gzip: 12.14 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/Color-f953d088.f0d603a8.js.map                        128.09 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/config.b4ab9fb5.js                                    71.84 KiB / gzip: 20.19 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/config.b4ab9fb5.js.map                                254.44 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/OverlayScrollbars-1355f44c.24b9e5c7.js                57.63 KiB / gzip: 24.73 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/OverlayScrollbars-1355f44c.24b9e5c7.js.map            425.97 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.843efb88.js                                     119.95 KiB / gzip: 37.64 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.843efb88.js.map                                 283.76 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/syntaxhighlighter-b07b042a.bc505eb2.js                122.64 KiB / gzip: 46.60 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/syntaxhighlighter-b07b042a.bc505eb2.js.map            452.47 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/vue.esm-bundler.c02555e9.js                           135.73 KiB / gzip: 52.68 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/vue.esm-bundler.c02555e9.js.map                       945.88 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.3bb59378.css                                  372.07 KiB / gzip: 65.39 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/iframe.8520de00.js                                    327.01 KiB / gzip: 89.16 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/iframe.8520de00.js.map                                938.92 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.d35f0106.js                                   456.63 KiB / gzip: 139.46 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/preview.d35f0106.js.map                               1077.76 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.952516d1.js                                     453.84 KiB / gzip: 134.74 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/index.952516d1.js.map                                 1104.71 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/formatter-0d5cb0eb.cbada680.js                        700.99 KiB / gzip: 219.18 KiB
+../../../../../../tmp/chromatic--3844619-M9Wsg9jIVqp5/assets/formatter-0d5cb0eb.cbada680.js.map                    1624.53 KiB
 
 (!) Some chunks are larger than 500 KiB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/guide/en/#outputmanualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-info => Manager built (26 s)
-info => Output directory: /tmp/chromatic--3865171-rxauJ5Z31Wbg
+info => Manager built (35 s)
+info => Output directory: /tmp/chromatic--3844619-M9Wsg9jIVqp5
