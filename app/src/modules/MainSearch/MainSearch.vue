@@ -16,7 +16,7 @@
       <age-dropdown />
     </div>
     <div class="fr-main-search__item">
-      <fr-dropbox :label="'Пол соседа'" />
+      <gender-dropdown />
     </div>
     <div class="fr-main-search__item">
       <fr-dropbox :label="'Цена с человека'" />
@@ -30,6 +30,7 @@
 import FrButton from 'components/atoms/FrButton/FrButton.vue';
 import FrDropbox from 'components/atoms/FrDropbox/FrDropbox.vue';
 import AgeDropdown from './components/AgeDropdown.vue';
+import GenderDropdown from './components/GenderDropdown.vue';
 
 const places = ['Москва, Россия', 'Санкт-Петербург, Россия', 'Сочи, Россия', 'Ростов, Россия', 'Крым, Россия'];
 const onItemClick = (e) => {
