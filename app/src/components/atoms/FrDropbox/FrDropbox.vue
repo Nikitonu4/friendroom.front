@@ -1,18 +1,19 @@
 <template>
   <q-btn-dropdown
     no-caps
-    dropdown-icon="none"
-    :disable-dropdown="disabled"
     class="fr-dropbox"
     unelevated
     :ripple="false"
+    :menu-offset="menuOffset"
+    :padding="paddingBtn"
+    content-class="fr-dropbox__content"
   >
-    <div class="fr-dropbox__content">тест</div>
     <template #label>
       <div class="fr-dropbox__label">
         {{ label }}
       </div>
     </template>
+    <slot> </slot>
   </q-btn-dropdown>
 </template>
 
@@ -31,6 +32,8 @@ interface FrDropboxProps {
   rightIcon?: {
     name: string;
   };
+  menuOffset?: [number, number];
+  paddingBtn?: string;
 }
 
 withDefaults(defineProps<FrDropboxProps>(), {
@@ -38,10 +41,11 @@ withDefaults(defineProps<FrDropboxProps>(), {
   size: 'M',
   style: 'primary',
   disabled: false,
+  paddingBtn: '0 0',
 });
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .fr-dropbox {
   &__label {
     font-weight: 400;
